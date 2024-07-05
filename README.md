@@ -56,7 +56,7 @@ export class AppModule { }
 ```
 import { Component, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NgxIselectComponent } from 'projects/ngx-iselect/src/public-api';
+import { NgxIselectComponent } from 'ngx-iselect';
 
 @Component({
   selector: 'app-root',
