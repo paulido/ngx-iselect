@@ -131,11 +131,12 @@ NB: there are tow to access selected items from parents:
 
 ```
 
-#### Display style
-
+#### Display style(css)
+```
 ngx-iselect{
   display: flex;
 }
+```
 
 
 ## Licence
