@@ -122,14 +122,20 @@ onSelectedChange(event: any){
 
 NB: there are tow to access selected items from parents:
 
-. ViewChild - used with template reference (example : #iselectComponent)
-. onSelectedChange
+- ViewChild - used with template reference (example : #iselectComponent)
+- onSelectedChange
 
 
 ```
 <ngx-iselect #iselectComponent [useObject]="true" [isEdit]="true" [data]="listOfObjects" [label]="'name'" [id]="'id'" [selected]="selected_items" class="ngx-container" [type]="'checkbox'" (selectedChange)="onSelectedChange($event)"></ngx-iselect>
 
 ```
+
+#### Display style
+
+ngx-iselect{
+  display: flex;
+}
 
 
 ## Licence
