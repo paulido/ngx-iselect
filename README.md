@@ -106,13 +106,14 @@ constructor(){
 }
 
 
-showSelected(){
-  console.log("showing select items with viewchild:", this.iselectComponent.selected_objects)
+// This will run when explicitly called (example : on button click)
+showSelectedWithViewChild(){
+  console.log("Showing select items with viewchild:", this.iselectComponent.selected_objects)
 }
 
-
+// This will run on each event
 onSelectedChange(event: any){
-  console.log("onSelectedChange", event.selected)
+  console.log("Showing select with event", event.selected)
 }
 
 }
@@ -126,13 +127,13 @@ NB: there are tow to access selected items from parents:
 
 
 ```
-<ngx-iselect #iselectComponent [useObject]="true" [isEdit]="true" [data]="listOfObjects" [label]="'name'" [id]="'id'" [selected]="selected_items" class="ngx-container" [type]="'radio'" (selectedChange)="onSelectedChange($event)"></ngx-iselect>
+<ngx-iselect #iselectComponent [useObject]="true" [isEdit]="true" [data]="listOfObjects" [label]="'name'" [id]="'id'" [selected]="selected_items" class="ngx-container" [type]="'checkbox'" (selectedChange)="onSelectedChange($event)"></ngx-iselect>
 
 ```
 
 
 ## Licence
-The MIT License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Keywords
 
