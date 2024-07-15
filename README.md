@@ -142,6 +142,4 @@ ngx-iselect{
 ## Licence
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-## Keywords
 
-Angular, Data selection, checkbox, radio, list
