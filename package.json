@@ -14,5 +14,12 @@
     "angular list",
     "angular radio button",
     "angular checkbox"
-  ]
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulido/ngx-iselect"
+  },
+  "homepage": "https://github.com/paulido/ngx-iselect#readme"
+
 }
