@@ -1,6 +1,6 @@
 {
   "name": "ngx-iselect",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "peerDependencies": {
     "@angular/common": ">=9.0.1",
     "@angular/core": ">=9.0.1"
@@ -9,6 +9,7 @@
     "tslib": ">=1.10.0"
   },
   "sideEffects": false,
+  "description": "Un composant simple et intuitif pour gérer les sélections dans les listes sous Angular.",
   "keywords": [
     "angular",
     "angular list",

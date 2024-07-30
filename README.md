@@ -1,10 +1,10 @@
 # ngx-iselect
 
-Simple component for handle selection using checkbox or radio
+A simple and intuitive component for managing selections in lists within Angular. This component is compatible with Bootstrap.
 
 ## Installation
 
-Run ` npm i ngx-iselect`. 
+` npm i ngx-iselect`. 
 
 ## Documentation
 
@@ -15,9 +15,9 @@ Inputs (Properties)
 - type (? checkbox | radio ) - determine the type of the form check input. Default type is checkbox
 - id ( string ) - id attribut of the objects
 - label ( string ) - the label to display
-- isEdit (? boolean ) - if it's selected edition. the may have initial selected value. The Default value is false
-- selected (Array<string|number>). when is isEdit is true, selected is required to check initial selection.
-- useObject (? boolean ) - determine if the returned selected values objects or object attribut like id.  The default value is false
+- selected (Array<string|number>) - if it's selected edition. the may have initial selected value. The Default value is false
+- isEdit (boolean). when is isEdit is true, selected is required to check initial selection.
+- useObject (? boolean ) - determine if the returned selected values are objects or object attribut like id.  The default value is false
 
 
 Outputs (Properties)
