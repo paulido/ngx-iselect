@@ -15,8 +15,8 @@ Inputs (Properties)
 - type (? checkbox | radio ) - determine the type of the form check input. Default type is checkbox
 - id ( string ) - id attribut of the objects
 - label ( string ) - the label to display
-- selected (Array<string|number>) - if it's selected edition. the may have initial selected value. The Default value is false
-- isEdit (boolean). when is isEdit is true, selected is required to check initial selection.
+- selected (Array<string|number>) - if it's edition. the may have initial selected values. The Default value is false
+- isEdit (boolean). when isEdit is true, selected is required to check initial selection.
 - useObject (? boolean ) - determine if the returned selected values are objects or object attribut like id.  The default value is false
 
 

@@ -9,7 +9,7 @@
     "tslib": ">=1.10.0"
   },
   "sideEffects": false,
-  "description": "Un composant simple et intuitif pour gérer les sélections dans les listes sous Angular.",
+  "description": "A simple and intuitive component for managing selections in lists within Angular. This component is compatible with Bootstrap.",
   "keywords": [
     "angular",
     "angular list",
