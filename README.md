@@ -10,14 +10,14 @@ A simple and intuitive component for managing selections in lists within Angular
 
 Inputs (Properties)
 
-- data (Array<any>) - the data to display
-- mode ( ? single | multiple ) - determine if multiple values can be selected. Default mode is multiple
-- type (? checkbox | radio ) - determine the type of the form check input. Default type is checkbox
-- id ( string ) - id attribut of the objects
-- label ( string ) - the label to display
-- selected (Array<string|number>) - if it's edition. the may have initial selected values. The Default value is false
-- isEdit (boolean). when isEdit is true, selected is required to check initial selection.
-- useObject (? boolean ) - determine if the returned selected values are objects or object attribut like id.  The default value is false
+- data (Array<any>): The data to display.
+- mode (? single | multiple): Determines if multiple values can be selected. The default mode is multiple.
+- type (? checkbox | radio): Determines the type of the form check input. The default type is checkbox.
+- id (string): The id attribute of the objects.
+- label (string): The label to display.
+- selected (Array<string|number>): If it’s in edit mode, this may have initial selected values. The default value is false.
+- isEdit (boolean): When isEdit is true, selected is required to check the initial selection.
+- useObject (? boolean): Determines if the returned selected values are objects or object attributes like id. The default value is false.
 
 
 Outputs (Properties)
